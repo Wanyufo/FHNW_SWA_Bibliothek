@@ -1,10 +1,8 @@
 # SWA Module, Graded Exercise
 
-## Commit Proposal
+## Project
 
 Matriculation Number: (_to be filled by student_)
-
-#### Project idea short description:
 
 You might choose between following **Java** applications:
 * Contact list
@@ -16,7 +14,7 @@ I'm mainly interested in the **backend** architecture. The **frontend** (probabl
 
 To start the application, you might use one of the following mechanisms:
 * Using **Java** [modules](https://github.com/ribeaud/ch.fhnw.swa.modserv.cli/blob/master/Commands.txt).
-* [Repacking](https://ribeaud.github.io/SWA/lectures/5/#10) a **Spring Boot** application into a single **jar**.
+* [Repacking](https://ribeaud.github.io/SWA/lectures/5/#10) a multi-**modules** **Spring Boot** application into a single **jar**.
 * Using `-classpath` **Java** option.
 
 #### Minimum requirements
@@ -34,7 +32,7 @@ You will have to use a repository (or database), where you will _persist_ the en
   * `Company` (as extension of `Person`)
 * Image upload (in its own *module*)
 
-#### References
+#### Reference applications
 
 * [ch.fhnw.swa.modserv.cli](https://github.com/ribeaud/ch.fhnw.swa.modserv.cli)
 * [myshop](https://github.com/ribeaud/blog-code-samples/tree/master/myshop)
@@ -46,10 +44,6 @@ You will have to use a repository (or database), where you will _persist_ the en
 How to start the project:
 
 How to test the project:
-
-Hand-written project description:
-
-(_could be HTML, Markdown, any other format and should contain a class/component diagram_)
 
 External contributions:
 
