@@ -19,14 +19,21 @@ To start the application, you might use one of the following mechanisms:
 
 #### Minimum requirements
 
-The application should be able to at least do the following:
+The application should be able to, at least, do the following:
 * List the entities
 * Create/edit one entity
 
 You will have to use a repository (or database), where you will _persist_ the entities. This repository could be a _real_ database (deployed via **Docker** for instance), an _in-memory_ one or a simple file.
 
+#### Suggested course of action
+
+1. Think about the components you will need
+1. Draw a component/class diagram
+1. Start to code
+
 #### Possible extensions
 
+* Delete
 * Entity:
   * `Magazine` (as extension of `Book`)
   * `Company` (as extension of `Person`)
