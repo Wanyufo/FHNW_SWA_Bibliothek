@@ -10,7 +10,7 @@ You might choose between following **Java** applications:
 
 The delivered application should be composed of multiple **modules** resp. should generate multiple **jars**.
 
-I'm mainly interested in the **backend** architecture. The **frontend** (probably in its own **module**/**component**) might be a **React** client, a simple **CLI**, and/or **Server Pages** based.
+The **frontend** (or **view** - probably in its own **module**/**component**) might be a **REST** API or **Server Pages** based. If you implement a **REST** API, then you will have to provide me a client (i.e., **React**) or you will have to tell how I can realise the minimum requirements (see below).
 
 To start the application, you might use one of the following mechanisms:
 * Using **Java** [modules](https://github.com/ribeaud/ch.fhnw.swa.modserv.cli/blob/master/Commands.txt).
