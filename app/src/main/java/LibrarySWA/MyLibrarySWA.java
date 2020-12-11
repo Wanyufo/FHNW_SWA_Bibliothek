@@ -8,3 +8,4 @@ public class MyLibrarySWA {
         SpringApplication.run(MyLibrarySWA.class, args);
     }
 }
+
