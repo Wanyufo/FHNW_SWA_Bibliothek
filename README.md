@@ -35,7 +35,7 @@ You will have to use a repository (or database), where you will _persist_ the en
 
 * Delete
 * Entity:
-  * `Magazine` (as extension of `Book`)
+  * `Magazine` (as extension of `book`)
   * `Company` (as extension of `Person`)
 * Image upload (in its own *module*)
 
