@@ -8,34 +8,14 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>jar</packaging>
-    <groupId>LibrarySWA</groupId>
-    <artifactId>app</artifactId>
-    <version>1.0</version>
 
+    <artifactId>service</artifactId>
     <dependencies>
         <dependency>
             <groupId>LibrarySWA</groupId>
             <artifactId>domain</artifactId>
             <version>1.0</version>
         </dependency>
-        <dependency>
-            <groupId>LibrarySWA</groupId>
-            <artifactId>web</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
-            <groupId>LibrarySWA</groupId>
-            <artifactId>service</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
-
-
 
 </project>

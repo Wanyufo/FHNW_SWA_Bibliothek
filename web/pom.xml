@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>LibrarySWA</groupId>
-            <artifactId>domain</artifactId>
+            <artifactId>service</artifactId>
             <version>1.0</version>
         </dependency>
     </dependencies>

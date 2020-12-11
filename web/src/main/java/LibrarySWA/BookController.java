@@ -1,8 +1,7 @@
 package LibrarySWA;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -10,14 +9,20 @@ import java.util.List;
 @RequestMapping("/books")
 public class BookController {
 
-    private final IBooksRepository booksRepository;
+    private final IBookService bookService;
 
-    public BookController(IBooksRepository booksRepository) {
-        this.booksRepository = booksRepository;
+    public BookController(IBookService bookService) {
+        this.bookService = bookService;
     }
 
     @GetMapping
     public ResponseEntity<List<Book>> getAllBooks() {
-        return ResponseEntity.ok(booksRepository.findAll());
+        return ResponseEntity.ok(bookService.getAllBooks());
+    }
+
+    @PostMapping
+    public ResponseEntity<Book> addNewBook(@RequestBody Book newBook) {
+        Book addedBook = bookService.addNewBook(newBook);
+        return ResponseEntity.status(HttpStatus.CREATED).body(addedBook);
     }
 }
