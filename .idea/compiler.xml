@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="app" />
+        <module name="db" />
+        <module name="domain" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="14" />
+      <module name="db" target="14" />
+      <module name="domain" target="14" />
+      <module name="FHNW_SWA_Bibliothek" target="14" />
+      <module name="parent" target="14" />
+      <module name="spring" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
