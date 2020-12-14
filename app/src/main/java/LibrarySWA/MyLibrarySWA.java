@@ -26,7 +26,6 @@ public class MyLibrarySWA {
     //TODO License
     //TODO Readme Update
     //TODO Tests
-    //TODO Comments/documentation
     //TODO UI?
 
 }
