@@ -23,11 +23,6 @@ public class MyLibrarySWA {
         return new BookService(booksRepository);
     }
 
-    //TODO License
-    //TODO Readme Update
-    //TODO Tests
-    //TODO UI?
-
 }
 
 
