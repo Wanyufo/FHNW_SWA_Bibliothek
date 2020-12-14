@@ -6,6 +6,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * The Book Controller is  a REST controller that handles requests
+ *
+ * @author Andreas Leu
+ *
+ * */
+
 @RestController
 @RequestMapping("/books")
 public class BookController {

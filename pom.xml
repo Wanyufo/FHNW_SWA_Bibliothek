@@ -10,7 +10,6 @@
 
     <modules>
         <module>app</module>
-        <module>db</module>
         <module>domain</module>
         <module>web</module>
         <module>service</module>

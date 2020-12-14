@@ -4,6 +4,13 @@ package LibrarySWA;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * A concrete Implementation of IBookService
+ *
+ * @author Andreas Leu
+ *
+ * */
+
 public class BookService implements IBookService {
     private final IBooksRepository booksRepository;
 

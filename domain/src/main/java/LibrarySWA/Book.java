@@ -6,7 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import java.util.Date;
+/**
+ * Domain Object representing a Book
+ *
+ * @author Andreas Leu
+ *
+ * */
 
 @Entity
 @Data
@@ -21,7 +26,6 @@ public class Book {
     private String type;
     private String publisher;
     private Long isbn;
-   // private Date PublicationDate;
 
 
 
