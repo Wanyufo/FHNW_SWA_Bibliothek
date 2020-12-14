@@ -1,8 +1,9 @@
 # SWA Module, Graded Exercise
 
 ## Project
+Andreas Leu
 
-Matriculation Number: (_to be filled by student_)
+Matriculation Number: 14-729-591
 
 You might choose between following **Java** applications:
 * Contact list
