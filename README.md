@@ -46,18 +46,21 @@ You will have to use a repository (or database), where you will _persist_ the en
 * [PetClinic](https://github.com/spring-projects/spring-petclinic)
 
 ## Project delivery
-(_to be filled by student_)
 
-How to start the project:
+####How to start the project:
+To start the application, the __MyLibrarySWA__ in the __App__ package has to be launched.
 
-How to test the project:
+####How to test the project:
+To use the functionalities, use the __requests.http__  file, located at app/.../resources has to be used.
 
-External contributions:
-
-Other comments:
-
-I'm particular proud of:
-
+The commands are prepared and have to be launched by pressing the green launch button on the left side. The result will then be displayed in the _run_ tab of Itellij"
+####External contributions:
+All the code was written by me, with substancial help from Quetsalkoatl on Discord
+####Other comments:
+I have omitted the UI as the main task of this assignment was the separation of modules, not the designing of an UI.
+ 
+####I'm particular proud of:
+How minimalistic this application is while still fulfilling all it's functions
 ## Project grading
 
 (_to be filled by lecturer_)
