@@ -67,4 +67,12 @@ How minimalistic this application is while still fulfilling all it's functions
 
 ## Project grading
 
-(_to be filled by lecturer_)
+When asking for _testing the project_, I am talking about running Unit/Integration tests.
+I do NOT count `requests.http` as integration tests as the format is IDE specific.
+
+The idea of writing a client is to be able to gather some extra points. Nevertheless, writing a minimal version
+and making use of `requests.http` is a good idea.
+
+Kindly Refer to [GradedExercise.xlsx](GradedExercise.xlsx) for grading details.
+
+Grade: **4.4**
